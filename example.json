@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "sample-local-tool": {
+      "command": "uvx",
+      "args": ["demo-mcp-server==1.2.3"],
+      "env": {
+        "SERVICE_TOKEN": "$" + "{SERVICE_TOKEN}"
+      }
+    },
+    "sample-remote-tool": {
+      "url": "https://mcp.example.test/mcp"
+    }
+  }
+}
